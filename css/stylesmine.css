@@ -189,6 +189,13 @@ body {
 	background-size: cover;
 }
 
+.proyecto-sm {
+	width: 75%;
+}
+
+.titulo-sm {
+	width: 90%;
+}
 
 /* ============= MEDIAS QUERYS ===============*/
 
@@ -272,6 +279,12 @@ body {
 		width: 100%;
 		margin-bottom: 1.5rem;
 	}
+	.proyecto-sm {
+		width: 90%;
+	}
+	.titulo-sm {
+		width: 80%;
+	}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -354,7 +367,7 @@ body {
 	}
 	/* ================ PROYECTOS =================== */
 	.img-proyecto, .img-proyecto2 {
-		width: 100%;
+		width: 80%;
 	}
 }
 
@@ -503,6 +516,9 @@ body {
 }
 
 @media only screen and (min-width: 890px) and (max-width: 1199.98px) and (orientation: landscape) {
+	p {
+		font-size: 20px;
+	}
 	.fondo-sm {
 		background-color: rgba(0, 0, 0, 0.4);
 	}
@@ -529,10 +545,14 @@ body {
 		width: 90% !important;
 	}
 	.img-proyecto {
-		width: 110%
+		width: 80%
 	}
 	.img-proyecto2 {
 		width: 100%
+	}
+	.headertitulo {
+		height: 80px;
+		background-color: transparent;
 	}
 }
 
@@ -561,7 +581,7 @@ body {
 		margin-top: 5% !important;
 	}
 	.img-proyecto {
-		width: 100%
+		width: 80%
 	}
 	.img-proyecto2 {
 		width: 100%
@@ -572,11 +592,15 @@ body {
 	.slide img {
 		height: 60vh;
 	}
+	.headertitulo {
+		height: 70px;
+		background-color: transparent;
+	}
 }
 
 @media only screen and (min-width: 1400px) and (orientation: landscape) {
 	p {
-		font-size: x-large;
+		font-size: 23px;
 	}
 	h1 {
 		font-size: 50px;
@@ -605,7 +629,7 @@ body {
 		margin-top: 5% !important;
 	}
 	.img-proyecto {
-		width: 75%
+		width: 80%
 	}
 	.img-proyecto2 {
 		width: 100%
@@ -615,5 +639,9 @@ body {
 	}
 	.slide img {
 		height: 65vh;
+	}
+	.headertitulo {
+		height: 80px;
+		background-color: transparent;
 	}
 }
