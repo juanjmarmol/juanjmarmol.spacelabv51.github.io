@@ -190,7 +190,7 @@ body {
 }
 
 .proyecto-sm {
-	width: 75%;
+	width: 90%;
 }
 
 .titulo-sm {
@@ -359,7 +359,7 @@ body {
 		width: 90%;
 	}
 	.slide img {
-		height: 55vh;
+		height: 58vh;
 	}
 	/* ================ INTEGRANTES =================== */
 	.grid-sm {
@@ -545,7 +545,7 @@ body {
 		width: 90% !important;
 	}
 	.img-proyecto {
-		width: 80%
+		width: 90%
 	}
 	.img-proyecto2 {
 		width: 100%
@@ -629,7 +629,7 @@ body {
 		margin-top: 5% !important;
 	}
 	.img-proyecto {
-		width: 80%
+		width: 65%
 	}
 	.img-proyecto2 {
 		width: 100%
